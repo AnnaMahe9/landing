@@ -1,0 +1,14 @@
+.apply-btn {
+    display: inline-block;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-top: gold 2px solid;
+    border-bottom:gold 2px solid;
+    border-radius: 5px;
+    color: white;
+    transition: 0.6s;
+}
+
+.apply-btn:hover {
+  border-radius: 20px;
+}

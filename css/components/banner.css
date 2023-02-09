@@ -1,0 +1,14 @@
+.banner {
+  background-image: url("/landing/images/fondbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  align-items: flex-end;
+  justify-content: space-between;
+  color:white;
+  padding: 230px;
+}
+
+.banner p {
+  font-size: 20px;
+}

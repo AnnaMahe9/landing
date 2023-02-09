@@ -1,0 +1,23 @@
+.container {
+  margin: 20px;
+  text-align: center;
+  display: block;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  padding: 20px;
+  align-content: center;
+  background-color: white;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgb(230 230 230);
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+}

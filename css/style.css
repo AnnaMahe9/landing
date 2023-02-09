@@ -1,0 +1,42 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Serif&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/buttons.css");
+@import url("components/footer.css");
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-image: url(/landing/images/fondsite2.jpg);
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Homemade Apple', cursive;
+  color: rgb(160, 50, 35);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+p {
+  font-size: 15px;
+  color: rgb(73, 69, 69);
+  font-weight: bold;
+  text-shadow: white 1px 0 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
